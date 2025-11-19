@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#barraDeBusca {
+width: 80%;
+max-width: 400px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+#pokedex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.pokemon-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px rgba(0,0,0,0,1);
+    padding: 20px;
+    width: 28%;
+    transition: transform 0.2s;
+}
+
+.pokemon-card:hover{
+    transform: scale(1.05);
+}
+
+.pokemon-card .img-container img{
+    width: 120px;
+    height: 120px;
+}
+
+.pokemon-card .info .number {
+    color: #999;
+    font-size: 0.8em;
+}
+
+.pokemon-card .info .name {
+    margin: 10px 0;
+    text-transform: capitalize;
+}
